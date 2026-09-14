@@ -19,6 +19,7 @@ h2{
 }
 
 #main {
+    position: relative;
     color: #E2E8F0;
     margin: 30px;
     border: 4px solid #334155;
@@ -29,6 +30,12 @@ h2{
     background-color: #1E293B;
     padding: 15px;
     text-align: center;
+}
+
+#box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 table {
@@ -46,6 +53,7 @@ img {
     display: block;
     width: 80%;
     height: 200px;
+    margin: auto;
 }
 
 a {
