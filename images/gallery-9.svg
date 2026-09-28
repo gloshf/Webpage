@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+<rect width="360" height="240" fill="#422006"/>
+<circle cx="310" cy="35" r="70" fill="#F59E0B" opacity=".16"/>
+<path d="M190 75l40-35 18 18-35 40c15 28 5 62-19 80-18 14-43 13-58-2-16-16-15-41 0-59 18-22 43-27 54-42z" fill="#F59E0B"/><circle cx="173" cy="140" r="20" fill="#78350F"/><path d="M190 75l-75 75" stroke="#FDE68A" stroke-width="7"/><path d="M112 145l-35 35 15 15 35-35" fill="#D97706"/>
+<text x="18" y="225" fill="#FFFFFF" opacity=".8" font-family="monospace" font-size="12">Guitar</text>
+</svg>

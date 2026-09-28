@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240">
+<rect width="360" height="240" fill="#14532D"/>
+<circle cx="310" cy="35" r="70" fill="#86EFAC" opacity=".16"/>
+<path d="M0 220 L65 85 L130 220 ZM85 220 L165 55 L245 220 ZM210 220 L280 90 L350 220 Z" fill="#166534"/><rect x="58" y="190" width="14" height="45" fill="#854D0E"/><rect x="158" y="180" width="16" height="55" fill="#854D0E"/><rect x="273" y="190" width="14" height="45" fill="#854D0E"/>
+<text x="18" y="225" fill="#FFFFFF" opacity=".8" font-family="monospace" font-size="12">Forest</text>
+</svg>

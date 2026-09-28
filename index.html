@@ -4,7 +4,7 @@
     <title>First Webpage</title>
 
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="favicon.webp">
+    <link rel="icon" href="images/favicon.webp">
 
     <style>
 
@@ -12,6 +12,7 @@
         color: #E2E8F0;
         background-color: #0F172A;
         font-family: 'Courier New', Courier, monospace;
+        margin: 0px;
     }
     </style>
 
@@ -20,96 +21,215 @@
 <body>
 
     <div id="header">
-        <h1 id="main-heading">Askhat Almadi</h1>
-        <h2>Group: IT-2513</h2>
+        <div class="left-header">
+            <img class="logo" src="images/favicon.webp">
+            
+            <div class="identify">
+                <h1 id="main-heading">Askhat Almadi</h1>
+                <h2>Group: IT-2513</h2>
+            </div>
+        </div>
+
+        <div id="task-0" class="navbar">
+            <ul>
+                <li>
+                    <a href="#about-me">About me</a>
+                </li>
+                <li>
+                    <a href="https://ch.tetr.io/u/almady" target="_blank">TETR.IO</a>
+                </li>
+                <li>
+                    <a href="https://github.com/gloshf/Webpage" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">YouTube</a>
+                </li>
+            </ul>
+        </div>
+
     </div>
 
     <div id="main">
+        <div id="about-me">
+            <h2>About me:</h2>
+            <p style="color: #94A3B8;">
+                I am an IT student who is interested in music and programming. I like listening to music and finding meaning in simple things.
+            </p>
 
-        <h2>About me:</h2>
-        <p style="color: #94A3B8;">
-            <p>I am an IT student who is interested in music and programming. I like listening to music and finding meaning in simple things.</p>
-        </p>
+            <h3 class="highlight">Hobbies:</h3>
+            <ol>
+                <li>Playing guitar</li>
+                <li>Playing video games</li>
+                <li>Reading books</li>
+                <li>Watching movies</li>
+                <li>Walking</li>
+            </ol>
 
-        <h3 class="highlight">Hobbies:</h3>
-        <ol>
-            <li>Playing guitar</li>
-            <li>Playing video games</li>
-            <li>Reading books</li>
-            <li>Watching movies</li>
-            <li>Walking</li>
-        </ol>
+            <img src="images/photo.jpg">
 
-        <h3 class="highlight">Favourite websites</h3>
-        <ul>
-            <li>
-                <a href="https://tetr.io/" target="_blank">Tetr.io</a>
-            </li>
-            <li>
-                <a href="https://lms.astanait.edu.kz/" target="_blank">LMS</a>
-            </li>
-            <li>
-                <a href="https://github.com/" target="_blank">GitHub</a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank">YouTube</a>
-            </li>
-        </ul>
+        </div>
 
-        <h3>My photo</h3>
-        <img src="photo.jpg">
 
-        <button class="button">Click</button>
+        <h3>Card-row</h3>
 
-        <h2>Schedule</h2>
+        <div class="card-row" id="task-1"">
+            
+            <article class="card-info">
+                <img src="images/card1.jfif">
+                <div class="card-content">
+                    <h3>Smol Brain Energy</h3>
+                    <p>No thoughts, head empty. Just vibing in 2D space with absolutely zero rendering budget.</p>
+                    <button class="button">Boop</button>
+                </div>
+            </article>
 
-        <table>
-            <tr>
-                <th>Subject</th>
-                <th>Day</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                <td>Math</td>
-                <td>Mon</td>
-                <td>10:00</td>
-            </tr>
-            <tr>
-                <td>Physics</td>
-                <td>Wed</td>
-                <td>12:00</td>
-            </tr>
-            <tr>
-                <td>Biology</td>
-                <td>Thu</td>
-                <td>11:00</td>
-            </tr>
-        </table>
+            <article class="card-info">
+                <img src="images/card2.jfif">
+                <div class="card-content">
+                    <h3>144p Blep</h3>
+                    <p>"You got games on your phone?" energy. Low resolution, but incredibly high quality derp.</p>
+                    <button class="button">Blep back</button>
+                </div>
+            </article>
+            
+            <article class="card-info">
+                <img src="images/card3.jfif">
+                <div class="card-content">
+                    <h3>The Void</h3>
+                    <p>It requires your soul... and maybe some wet food at 3 AM. Do not look directly into its eyes.</p>
+                    <button class="button">Run away</button>
+                </div>
+            </article>
 
-        <h3 style="padding-top: 15px;">Todays mood:</h3>
-        <p>🫡👍💔</p>
+        </div>
 
-        <h3 style="text-align: center; padding-top: 10px;">Form</h3>
 
-        <form>
-            <p>Name:</p>
-            <input type="text">
+        <h3 style="margin-top: 50px;">Page Layout with Grid Areas</h3>
+        <div class="grid" id="task-2">
+            <header class="grid-header">
+                <h2>Header</h2>
+            </header>
+            <aside class="grid-sidebar">
+                <h2>sidebartitle</h2>
+            </aside>
+            <div class="grid-main-content">
+                <h2>Main-content</h2>
+                <p>main content text</p>
+            </div>
+            <footer class="grid-footer">
+                <h2>Footer</h2>
+            </footer>
+        </div>
 
-            <p>Email:</p>
-            <input type="email">
+        <h3 style="margin-top: 50px;">Image Gallery</h3>
+        <div class="gallery" id="task-3">
+            <figure class="g-item">
+                <img src="images/gallery-1.svg">
+                <figcaption>Mountains</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-2.svg">
+                <figcaption>Music</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-3.svg">
+                <figcaption>Books</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-4.svg">
+                <figcaption>Night sky</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-5.svg">
+                <figcaption>Ocean</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-6.svg">
+                <figcaption>Forest</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-7.svg">
+                <figcaption>City</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-8.svg">
+                <figcaption>Coffee</figcaption>
+            </figure>
+            <figure class="g-item">
+                <img src="images/gallery-9.svg">
+                <figcaption>Guitar</figcaption>
+            </figure>
 
-            <p>Favourite color:</p>
-            <input type="color">
+        </div>
 
-            <button type="submit">Submit</button>
-        </form>
 
-        <div class="box left">Left box</div>
-        <div class="box right">Right box</div>
+        <h3 style="margin-top: 50px;">Portfolio Page</h3>
+        <section class="section" id="task-4">
+            <div class="portfolio">
+                <header class="portfolio-header">
+                    <div>
+                        <h3>My Portfolio</h3>
+                        <p>Student projects and interests</p>
+                    </div>
+                    <nav class="portfolio-nav" aria-label="Portfolio navigation">
+                        <a href="#task-1">Cards</a>
+                        <a href="#task-3">Gallery</a>
+                    </nav>
+                </header>
 
-        <p class="clear-text">This text comes after the boxes.</p>
-    
+                <div class="portfolio-main">
+                    <section class="projects">
+                        <h3>Projects</h3>
+                        <div class="project-list">
+                            <article class="project-card">
+                                <div>
+                                    <h4>First Webpage</h4>
+                                    <p>A personal webpage created with HTML and CSS. It includes text, links, a table, and a form.</p>
+                                </div>
+                                <a class="button" href="#task-0">Back to top</a>
+                            </article>
+                            <article class="project-card">
+                                <div>
+                                    <h4>Finance Tracker</h4>
+                                    <p>A practice project for recording income, expenses, and account balances.</p>
+                                </div>
+                                <a class="button" href="#task-2">Grid example</a>
+                            </article>
+                            <article class="project-card">
+                                <div>
+                                    <h4>CSS Layout Practice</h4>
+                                    <p>This assignment demonstrates Flexbox, Grid, responsive layouts, and hover effects.</p>
+                                </div>
+                                <a class="button" href="#task-3">Open gallery</a>
+                            </article>
+                        </div>
+                    </section>
+
+                    <aside class="portfolio-sidebar">
+                        <h3>About me</h3>
+                        <p>IT student, interested in music, programming, and books.</p>
+                        <h3>Hobbies</h3>
+                        <ul>
+                            <li>Playing guitar</li>
+                            <li>Playing video games</li>
+                            <li>Reading books</li>
+                            <li>Watching movies</li>
+                            <li>Walking</li>
+                        </ul>
+                        <h3>Links</h3>
+                        <p><a href="https://tetr.io/" target="_blank" rel="noopener noreferrer">Tetr.io</a></p>
+                        <p><a href="https://lms.astanait.edu.kz/" target="_blank" rel="noopener noreferrer">AITU LMS</a></p>
+                        <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+                    </aside>
+                </div>
+
+                <footer class="portfolio-footer">Askhat Almadi · IT-2513</footer>
+            </div>
+        </section>
     </div>
+
+
+    
 
     <div id="footer">
         <p>My First Webpage</p>

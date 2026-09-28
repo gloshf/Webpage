@@ -1,102 +1,38 @@
-# HTML & CSS Assignment 1
+# Assignment #2. Advanced CSS (Flexbox & Grid)
 
-**Student:** Askhat Almadi
+**Student:** Askhat Almadi  
 **Group:** IT-2513
 
-## About the project
+## Part 1. Flexbox
 
-This is my first HTML and CSS webpage. The goal of this assignment was to learn the basic HTML structure and practice different HTML and CSS techniques.
+### Task 0. Navigation Bar
+The header uses Flexbox to place the logo, student information, and navigation links in one row. `align-items: center` aligns them vertically, while auto margins push the logo and links toward opposite sides.
 
-## Assignment Tasks
+**Screenshot:** Add a screenshot of the navigation bar here.
 
-### HTML
+### Task 1. Card Row
+Three cards are displayed with Flexbox. The cards stretch to equal height, use a consistent `gap`, and have a hover effect that moves them slightly upward and adds a shadow.
 
-* Created the basic HTML structure.
-* Added headings and text.
-* Added ordered and unordered lists.
-* Added links and an image.
-* Added a button.
-* Created a schedule table.
-* Added emojis.
-* Created a form with text, email and color inputs.
+**Screenshot:** Add a screenshot of the card row here.
 
-### CSS
+## Part 2. Grid System
 
-* Used inline CSS.
-* Used internal CSS inside the `<head>`.
-* Used external CSS in `style.css`.
-* Used element, class and ID selectors.
-* Added a favicon.
-* Used `div` elements for different sections.
-* Practiced the CSS box model.
-* Used static, relative and absolute positioning.
-* Used `px`, `%`, `em` and `rem` units.
-* Used `float` and `clear`.
+### Task 2. Page Layout with Grid Areas
+The example layout uses `grid-template-areas` to place the header across the top, the sidebar on the left, the main content on the right, and the footer across the bottom.
 
-## Screenshots
+**Screenshot:** Add a screenshot of the grid layout here.
 
-### 1. Website — Main Part
+### Task 3. Image Gallery
+The gallery contains nine local SVG images arranged with CSS Grid. Each image has a caption that appears on hover. The number of columns changes on smaller screens.
 
-![Website](screenshots/1.png)
+**Screenshot:** Add a screenshot of the image gallery here.
 
-### 2. HTML Code — Part 1
+## Part 3. Combining Flexbox & Grid
 
-![HTML Code](screenshots/2.png)
+### Task 4. Portfolio Page
+The portfolio header uses Flexbox. The main portfolio area uses Grid to place projects next to the sidebar. Each project card uses Flexbox to arrange its text and button. The portfolio footer spans the full width.
 
-### 3. HTML Code — Part 2
+**Screenshot:** Add a screenshot of the portfolio page here.
 
-![HTML Code](screenshots/3.png)
-
-### 5. Schedule
-
-![Schedule](screenshots/5.png)
-
-### 6. Schedule Code
-
-![Schedule Code](screenshots/6.png)
-
-### 7. Form
-
-![Form](screenshots/7.png)
-
-### 8. Form Code
-
-![Form Code](screenshots/8.png)
-
-### 9. CSS in HTML Head
-
-![Internal CSS](screenshots/9.png)
-
-### 10. External CSS — Part 1
-
-![CSS](screenshots/10.png)
-
-### 11. External CSS — Part 2
-
-![CSS](screenshots/11.png)
-
-### 12. External CSS — Part 3
-
-![CSS](screenshots/12.png)
-
-### 13. External CSS — Part 4
-
-![CSS](screenshots/13.png)
-
-## Work Process
-
-First, I created the basic HTML structure and added the required content. Then I added headings, lists, links, an image, a button, a table and a form. After that, I worked with different types of CSS: inline, internal and external CSS. I also practiced selectors, the box model, positioning, sizing, float and clear. Finally, I uploaded the project to GitHub.
-
-## Files
-
-* `index.html` — main HTML file
-* `style.css` — external CSS file
-* `photo.jpg` — image used on the webpage
-* `favicon.webp` — favicon
-* `screenshots/` — screenshots of the assignment
-
-## Technologies
-
-* HTML
-* CSS
-* GitHub Pages
+## Summary
+I created one page with separate sections for all five tasks. I used Flexbox for horizontal alignment and card layouts, and CSS Grid for page areas and the image gallery. I also added hover effects and media queries so the layout adapts to smaller screens. The images are stored locally in the `images` folder.
